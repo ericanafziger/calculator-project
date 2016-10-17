@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <script src="js/scripts.js"></script>
+  <script src="js/jquery-3.1.1.js"></script>
+
     <title>Calculator</title>
   </head>
   <body>
-    <script src="js/scripts.js">
+    <div class="container">
+      <div class="well">
+        <h1>Calculator</h1>
+        <h4 id="value">0</h4>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" id="7">7</button>
+              <button type="button" class="btn btn-default" id="8">8</button>
+              <button type="button" class="btn btn-default"id="9">9</button>
+              <button type="button" class="btn btn-default" id="multiply">*</button>
+            </div><!--closes button group -->
+          </div><!--closes column 1-->
+        </div><!--closes 1st row-->
 
-    </script>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" id="4">4</button>
+              <button type="button" class="btn btn-default" id="5">5</button>
+              <button type="button" class="btn btn-default" id="6">6</button>
+              <button type="button" class="btn btn-default" id="subtract">-</button>
+            </div><!--closes button group -->
+          </div><!--closes column 2-->
+        </div><!--closes 2nd row-->
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" id="1">1</button>
+              <button type="button" class="btn btn-default" id="2">2</button>
+              <button type="button" class="btn btn-default"id="3">3</button>
+              <button type="button" class="btn btn-default" id="add">+</button>
+            </div><!--closes button group -->
+          </div><!--closes column 3-->
+        </div><!--closes row 3-->
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default" id="decimal">.</button>
+              <button type="button" class="btn btn-default" id="0">0</button>
+              <button type="button" class="btn btn-default" id="plusOrMinus">+/-</button>
+              <button type="button" class="btn btn-default" id="equals">=</button>
+            </div><!--closes button group -->
+          </div><!--closes column 4-->
+        </div><!--closes row 4-->
+
+      </div><!--closes well-->
+    </div><!--closes container-->
   </body>
 </html>
