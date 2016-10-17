@@ -19,6 +19,27 @@
 //
 // });
 
+// test="123+34*4-54";
+// var array=[];
+//
+// function splitValue(value, index) {
+//     return value.substring(0, index) + "," + value.substring(index);
+// }
+// for(x=0;x<test.length;x++){
+// 	var op=[];
+//   var counter=0;
+// 	if(Number.isInteger(test.charAt(x)))==false){
+//   	op[counter]=text.charAt(x)
+//     counter++;
+//   }
+// }
+// for(x=0;x<test.length;x++){
+// 	var counter=0;
+// 	if(Number.isInteger(test.charAt(x)))==false){
+//   	array[counter]=splitValue(test,(x+1);
+//   }
+// }
+
 $(document).ready(function() {
 	$("#0").click(function(){
 		oldVal=$("#value").text();
